@@ -11,12 +11,13 @@
         </div>
         <div class="row">
           <CourseCard
-            v-for="(course, index) in courses"
+            v-for="(course, index ) in courses"
             :key="index"
             :title="course.title"
             :short-description="course.shortDescription"
             :price="course.price"
           ></CourseCard>
+          
         </div>
         <div class="btn-box">
           <a href=""> View All </a>

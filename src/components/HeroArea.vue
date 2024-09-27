@@ -95,7 +95,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="carousel-item">
+          <div class="carousel-item">
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
@@ -150,7 +150,7 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
         <ol class="carousel-indicators">
           <li
@@ -171,12 +171,12 @@ import axios from "axios";
 export default {
   data() {
     return {
-      services: ["Hello", "Hello2"],
+      services: ["San Vert", "Hello2"],
     };
   },
   methods: {
     updateTitle() {
-      this.services[0] = "Updated!";
+      this.services[1] = "Updated!";
     },
   },
   beforeCreate() {
