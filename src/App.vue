@@ -1,6 +1,6 @@
 <template>
   <HeroArea v-if="!remove"></HeroArea>
-  <button @click="changeValue">Remove from DOM</button>
+  <!-- <button @click="changeValue">Remove from DOM</button> -->
   <Course></Course>
   <ServiceSection></ServiceSection>
   <About></About>
